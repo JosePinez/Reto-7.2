@@ -1,0 +1,84 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabecera{
+    background-color: black;
+    height: 150px;
+}
+.logo1 img{
+    float: right;
+    margin-right: 10px;
+}
+.logo2 img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.publi{
+    text-align: center;
+    margin-top: 20px;
+}
+/* DISE�O LISTA DESPLEGABLE */
+.recuadros{
+    margin-top: 20px;
+    border: 1px solid black;
+    background-color: #fadc04;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+/* DATOS PERSONAJES */
+.tablas{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: 5px solid black;
+    border-left: 1px solid grey;
+    margin-left: 0px;
+    border-collapse: collapse;
+    display: none;
+}
+.tablasMostradas{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: 5px solid black;
+    border-left: 1px solid grey;
+    margin-left: 0px;
+    border-collapse: collapse;
+    display: block;
+}
+/* CABECERA LISTAS DESPLEGABLES */
+.nombres{
+    font-weight: bold;
+    margin-left: 10px;
+    list-style-type: none;
+}
+th{
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+td{
+    padding-bottom: 100px;
+    padding-right: 300px;
+    padding-top: 10px;
+}
+/* SIMBOLOGIA COPY */ 
+.copy{
+    float: right;
+    padding-bottom:15px;
+    padding-right: 15px;
+    color: white;
+}
+footer {
+    background-color: #343433;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    color:white;
+}
