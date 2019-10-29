@@ -16,7 +16,7 @@ function ocultar(indice){
     var list = ul.getElementsByTagName("li");
     var element = document.getElementsByTagName("div");
     element[indice].style.opacity = "0";
-    element[indice].style.transitionDuration = "0s";
+    element[indice].style.transitionDuration = "2s";
     list[indice].style.marginLeft = "0px";
-    list[indice].style.transitionDuration = "0s";
+    list[indice].style.transitionDuration = "2s";
 }
